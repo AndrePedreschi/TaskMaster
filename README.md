@@ -1,27 +1,80 @@
-# AppModules
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
+# 🧠 TaskMaster
 
-## Development server
+**TaskMaster** é uma aplicação web de gerenciamento de tarefas desenvolvida com Angular 17. A proposta é oferecer uma experiência simples, organizada e eficiente para usuários que desejam gerenciar suas atividades diárias de forma prática.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🚀 Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular 17**
+- **TypeScript**
+- **RxJS**
+- **HTML5**
+- **CSS3**
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📸 Funcionalidades
 
-## Running unit tests
+- ✅ Criação projetos e tarefas
+- 📝 Edição de projetos e tarefas existentes
+- ❌ Exclusão de projetos e tarefas
+- 📂 Organização visual simples
+- ⚡ Interface responsiva e intuitiva
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🧪 Instalação e Uso
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone o repositório:
 
-## Further help
+```bash
+git clone https://github.com/AndrePedreschi/TaskMaster.git
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Acesse a pasta do projeto:
+
+```bash
+cd TaskMaster
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Execute o projeto localmente:
+
+```bash
+ng serve
+```
+
+5. Acesse no navegador:
+
+```
+http://localhost:4200/
+```
+
+---
+
+## 🧪 Testes
+
+Para rodar os testes unitários com Karma:
+
+```bash
+ng test
+```
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+## 🙋 Sobre o Autor
+
+Desenvolvido por **[André Pedreschi](https://github.com/AndrePedreschi)** – Desenvolvedor Front-end e Líder Técnico, com foco em performance, boas práticas e experiências de usuário de alto nível.
