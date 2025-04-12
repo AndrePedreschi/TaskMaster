@@ -1,0 +1,59 @@
+@use '@angular/material' as mat;
+@use 'sass:map';
+
+header {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    position: sticky;
+    top: 0;
+
+    img {
+        width: 100%;
+        max-width: 310px;
+        height: auto;
+        cursor: pointer;
+    }
+
+    .btn {
+        display: flex;
+
+        button {
+            border-radius: 12px;
+            background: #AB6EED80;
+            font-size: 20px;
+            padding: 8px 20px;
+            border: 1px solid #AB6EED;
+            font-family: Poppins;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            text-align: left;
+
+        }
+    }
+    @media (max-width: 620px) {
+
+        .btn {
+            padding: 0;
+
+            button {
+                font-size: 9px;
+                padding: 4px 8px;
+            }
+        }
+
+        img {
+            max-width: 150px;
+        }
+    }
+}
+
+// @media screen and (max-width:468px){
+//     .btn button {
+//         display: none;
+//     }
+// }
+
